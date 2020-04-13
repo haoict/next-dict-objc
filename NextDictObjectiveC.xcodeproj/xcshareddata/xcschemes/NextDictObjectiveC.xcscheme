@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0C74B39624269F2100F8565E"
-               BuildableName = "NextDictObjectiveC.app"
-               BlueprintName = "NextDictObjectiveC"
+               BuildableName = "Next Dict.app"
+               BlueprintName = "Next Dict"
                ReferencedContainer = "container:NextDictObjectiveC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0C74B39624269F2100F8565E"
-            BuildableName = "NextDictObjectiveC.app"
-            BlueprintName = "NextDictObjectiveC"
+            BuildableName = "Next Dict.app"
+            BlueprintName = "Next Dict"
             ReferencedContainer = "container:NextDictObjectiveC.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0C74B39624269F2100F8565E"
-            BuildableName = "NextDictObjectiveC.app"
-            BlueprintName = "NextDictObjectiveC"
+            BuildableName = "Next Dict.app"
+            BlueprintName = "Next Dict"
             ReferencedContainer = "container:NextDictObjectiveC.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

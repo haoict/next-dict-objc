@@ -15,13 +15,14 @@
 		0C74B3AA24269F2100F8565E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C74B3A924269F2100F8565E /* Assets.xcassets */; };
 		0C74B3AD24269F2100F8565E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C74B3AB24269F2100F8565E /* LaunchScreen.storyboard */; };
 		0C74B3B024269F2100F8565E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C74B3AF24269F2100F8565E /* main.m */; };
+		0CACE14824443CBD00F3D460 /* icon-512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CACE14724443CBD00F3D460 /* icon-512x512.png */; };
 		0CBBF140242EA7F900EA61BE /* FetchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBBF13F242EA7F900EA61BE /* FetchHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C33C1D5242EA267002763C9 /* WordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordViewController.h; sourceTree = "<group>"; };
 		0C33C1D6242EA288002763C9 /* WordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordViewController.m; sourceTree = "<group>"; };
-		0C74B39724269F2100F8565E /* NextDictObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextDictObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C74B39724269F2100F8565E /* Next Dict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Next Dict.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C74B39A24269F2100F8565E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0C74B39B24269F2100F8565E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0C74B3A024269F2100F8565E /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
@@ -33,6 +34,7 @@
 		0C74B3AC24269F2100F8565E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C74B3AE24269F2100F8565E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C74B3AF24269F2100F8565E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0CACE14724443CBD00F3D460 /* icon-512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-512x512.png"; sourceTree = "<group>"; };
 		0CBBF13E242EA7F900EA61BE /* FetchHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchHelper.h; sourceTree = "<group>"; };
 		0CBBF13F242EA7F900EA61BE /* FetchHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,7 +61,7 @@
 		0C74B39824269F2100F8565E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C74B39724269F2100F8565E /* NextDictObjectiveC.app */,
+				0C74B39724269F2100F8565E /* Next Dict.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +81,7 @@
 				0C74B3A924269F2100F8565E /* Assets.xcassets */,
 				0C74B3AB24269F2100F8565E /* LaunchScreen.storyboard */,
 				0C74B3AE24269F2100F8565E /* Info.plist */,
+				0CACE14724443CBD00F3D460 /* icon-512x512.png */,
 				0C74B3AF24269F2100F8565E /* main.m */,
 				0C33C1D5242EA267002763C9 /* WordViewController.h */,
 				0C33C1D6242EA288002763C9 /* WordViewController.m */,
@@ -89,9 +92,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0C74B39624269F2100F8565E /* NextDictObjectiveC */ = {
+		0C74B39624269F2100F8565E /* Next Dict */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C74B3B324269F2100F8565E /* Build configuration list for PBXNativeTarget "NextDictObjectiveC" */;
+			buildConfigurationList = 0C74B3B324269F2100F8565E /* Build configuration list for PBXNativeTarget "Next Dict" */;
 			buildPhases = (
 				0C74B39324269F2100F8565E /* Sources */,
 				0C74B39424269F2100F8565E /* Frameworks */,
@@ -101,9 +104,9 @@
 			);
 			dependencies = (
 			);
-			name = NextDictObjectiveC;
+			name = "Next Dict";
 			productName = NextDictObjectiveC;
-			productReference = 0C74B39724269F2100F8565E /* NextDictObjectiveC.app */;
+			productReference = 0C74B39724269F2100F8565E /* Next Dict.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C74B39624269F2100F8565E /* NextDictObjectiveC */,
+				0C74B39624269F2100F8565E /* Next Dict */,
 			);
 		};
 /* End PBXProject section */
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C74B3AD24269F2100F8565E /* LaunchScreen.storyboard in Resources */,
+				0CACE14824443CBD00F3D460 /* icon-512x512.png in Resources */,
 				0C74B3AA24269F2100F8565E /* Assets.xcassets in Resources */,
 				0C74B3A824269F2100F8565E /* Main.storyboard in Resources */,
 			);
@@ -302,7 +306,7 @@
 		0C74B3B424269F2100F8565E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32CDKB8PZH;
@@ -312,8 +316,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.haoict.NextDictObjectiveC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haoict.NextDictOC;
+				PRODUCT_NAME = "Next Dict";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -322,7 +327,7 @@
 		0C74B3B524269F2100F8565E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32CDKB8PZH;
@@ -332,8 +337,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.haoict.NextDictObjectiveC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haoict.NextDictOC;
+				PRODUCT_NAME = "Next Dict";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -351,7 +357,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C74B3B324269F2100F8565E /* Build configuration list for PBXNativeTarget "NextDictObjectiveC" */ = {
+		0C74B3B324269F2100F8565E /* Build configuration list for PBXNativeTarget "Next Dict" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C74B3B424269F2100F8565E /* Debug */,

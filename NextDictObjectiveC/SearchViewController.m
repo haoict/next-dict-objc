@@ -14,7 +14,7 @@
 
 long tableRowNo;
 NSArray *tableData;
-NSTimer * searchTimer;
+NSTimer *searchTimer;
 
 - (void)viewDidLoad {
   [super viewDidLoad];
@@ -51,7 +51,7 @@ NSTimer * searchTimer;
   [self.tableView reloadData];
   
   UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"My Alert" message:@"This is an alert." preferredStyle:UIAlertControllerStyleAlert];
-  
+
   UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {}];
   
   [alert addAction:defaultAction];
@@ -98,6 +98,8 @@ NSTimer * searchTimer;
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
   tableRowNo = indexPath.row;
+  [tableView deselectRowAtIndexPath:indexPath animated: true];
+
   NSLog(@"%ld, %@", tableRowNo, tableData[tableRowNo]);
   
   UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
@@ -105,5 +107,4 @@ NSTimer * searchTimer;
   wordVC.word = tableData[tableRowNo];
   [self.navigationController pushViewController:wordVC animated:YES];
 }
-
 @end
