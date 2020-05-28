@@ -10,11 +10,11 @@
 #import "WordViewController.h"
 #import "FetchHelper.h"
 
-@implementation SearchViewController
-
-long tableRowNo;
-NSArray *tableData;
-NSTimer *searchTimer;
+@implementation SearchViewController {
+  long tableRowNo;
+  NSArray *tableData;
+  NSTimer *searchTimer;
+}
 
 - (void)viewDidLoad {
   [super viewDidLoad];
@@ -34,8 +34,8 @@ NSTimer *searchTimer;
   
   NSString *url = [NSString stringWithFormat:@"https://dict.nless.pro/api/dict/search?key=%@&type=envi", escapedString];
   [FetchHelper fetchData:url :^void(NSDictionary *resultJsonArray) {
-    tableData = [resultJsonArray objectForKey:@"data"];
-    if ([tableData count] == 0) {
+    self->tableData = [resultJsonArray objectForKey:@"data"];
+    if ([self->tableData count] == 0) {
       return;
     }
     
